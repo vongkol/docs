@@ -86,7 +86,7 @@
             <div class="dropdown-menu dropdown-menu-left">
                 <a class="dropdown-item" href="{{url('/category')}}"><i class="fa fa-circle-o text-danger"></i> ប្រភេទឯកសារ</a>
                 <a class="dropdown-item" href="{{url('/asset')}}"><i class="fa fa-circle-o text-info"></i>  សម្ភារៈ</a>
-                <a class="dropdown-item" href="#"><i class="fa fa-circle-o text-info"></i>  រូបភាព</a>
+                <a class="dropdown-item" href="{{url('/slider')}}"><i class="fa fa-circle-o text-info"></i>  រូបភាព</a>
 
             </div>
         </li>

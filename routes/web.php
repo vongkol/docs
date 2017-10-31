@@ -87,3 +87,11 @@ Route::get("/asset/edit/{id}", "AssetController@edit");
 Route::get("/asset/delete/{id}", "AssetController@delete");
 Route::post("/asset/save", "AssetController@save");
 Route::post("/asset/update", "AssetController@update");
+
+// Slider
+Route::get("/slider", "PhotoController@index");
+Route::get("/slider/create", "PhotoController@create");
+Route::post("/slider/save", "PhotoController@save");
+Route::get("/slider/delete/{id}", "PhotoController@delete");
+Route::get("/slider/edit/{id}", "PhotoController@edit");
+Route::post("/slider/update", "PhotoController@update");
