@@ -1,0 +1,79 @@
+.text-bold{
+    font-weight:bold;
+}
+/* table style */
+.tbl
+{
+    border: 1px solid #CCCCCC;
+    border-spacing: 0;
+    width: 100%;
+}
+.tbl thead tr th{
+    padding: 6px 8px;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    background: #ebeff1;
+}
+.tbl thead tr th:last-child{
+    border-right: none;
+}
+.tbl tbody tr td{
+    padding: 8px 9px;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    font-size: 13px;
+}
+.tbl tbody tr:nth-child(even)
+{
+    background: #f4f5f6;
+}
+.tbl tbody tr td:last-child{
+    border-right: none;
+    color: green;
+    font-weight:bold;
+}
+.tbl tbody tr:last-child td{
+    border-bottom: none;
+}
+.hide{
+    display: none;
+}
+.x-right{
+    margin-right: 18px!important;
+}
+ul.tool-bar{
+    padding:3px 9px 3px 3px;
+    list-style-type: none;
+    text-align: right;
+    margin: -18px 22px 0 0;
+}
+ul.tool-bar li{
+    display: inline-block;
+    margin-left: 9px;
+}
+.pagination li.active span{
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000;
+    background-color: #ccc;
+    border: 1px solid #ddd;
+}
+.pagination li.disabled span {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #ddd;
+}
+.list{
+    line-height: 27px;
+}
+ul.list li a{
+    color: #1f648b;
+}

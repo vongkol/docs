@@ -1,0 +1,57 @@
+.btn-flat{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+#footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    padding-bottom: 2px;
+}
+.bg-primary{
+    background: #0275d8;
+}
+.bg-success{
+    background: #449d44;
+}
+.text-white{
+    color: #FFF;
+}
+.header{
+    padding: 6px 8px 4px 8px;
+    margin: 0;
+    width: 100%;
+}
+.folder-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.folder-list li{
+    border-bottom: 1px solid #CCCCCC;
+    display: block;
+    margin: 4px;
+}
+.folder-list li a{
+    width: 100%;
+    display: block;
+}
+.folder-list li a:active{
+    background: #dde;
+}
+.file-name{
+    font-size: 11px;
+    font-family: Arial;
+    color: #333;
+    display: block;
+    text-align: center;
+    margin-top: -14px;
+}
+.sub-title{
+    text-align: center;
+    background: #ddd;
+    margin: 0;
+    padding: 4px 2px;
+    width: 100%;
+}
